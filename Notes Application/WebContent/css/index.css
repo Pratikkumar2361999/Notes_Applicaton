@@ -1,0 +1,292 @@
+body{
+	margin:0px;
+}
+.mainDiv {
+	border: 1px solid #DADCE0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	max-width: fit-content;
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 10px #E0E0E0;
+}
+
+hr {
+	border: 1px #E0E0E0 solid;
+	border-color: #E0E0E0;
+	display: block;
+	background-color: #E0E0E0;
+	outline: none;
+}
+
+/***********************************************************************************/
+.alert {
+  padding: 15px;
+  margin:0px;
+}
+
+.alert-green{
+	background-color: #d4edda;
+	color: #155724;
+}
+
+.alert-yellow{
+	background-color: #fff3cd;
+	color: #155724;
+}
+
+.alert-red{
+	background-color: #f8d7da;
+	color: #721c24;
+}
+
+.closebtn {
+  margin-left: 15px;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.closebtn-red{
+	color: #b57a7f;
+}
+.closebtn-yellow{
+	color: #75a27f;
+}
+.closebtn-green{
+	color: #75a27f;
+}
+.closebtn:hover {
+  color: black;
+}
+
+/***********************************************************************************/
+
+.input_title {
+	width: 550px;
+	font-size: 1.7rem;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 10px;
+	font-family: 'whateverbold';
+	/*font-weight: bolder;*/
+	color: #686767;
+	border-radius: 10px;
+	border: 0px;
+}
+
+.input_note {
+	width: 552px;
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 10px;
+	font-family: 'whateverbold';
+	font-size: 1.3rem;
+	border-radius: 20px;
+	border: 0px;
+	color: #757575;
+	resize: none;
+	min-height: 50px;
+}
+
+.input_note:focus {
+	outline: none;
+}
+
+.input_title:focus {
+	outline: none;
+}
+
+.submit_button {
+	border-radius: 30px;
+	position: static;
+	height: 50px;
+	width: 50px;
+	/* align-items: baseline; */
+	background-image: url(../images/icon3.jpg);
+	background-size: cover;
+}
+
+.submit_button:focus {
+	outline: none;
+}
+
+.mainDiv:hover {
+	box-shadow: 0 0 15px #d1d0d0;
+}
+
+p {
+	margin: unset;
+	margin-right: 5px;
+}
+
+
+@font-face {
+	font-family: "whateverbold";
+	src: url(fonts/whatever\ it\ takes\ bold.ttf);
+}
+
+.cards {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 90%;
+}
+
+.card {
+	border: 1px solid #E0E0E0;
+	height: fit-content;
+	width: 200px;
+	border-radius: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	max-height: 400px;
+}
+
+.card:hover {
+	box-shadow: 0 0 8px #dfd9d9;
+}
+
+.title {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom:3px;
+	font-family: 'Coming Soon', cursive;
+}
+
+.note {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Coming Soon', cursive;
+	overflow: auto;
+	max-height: 267px;
+}
+
+.edit {
+	border-radius: 30px;
+	position: static;
+	height: 30px;
+	width: 30px;
+	/* align-items: baseline; */
+	background-image: url(../images/edit-icon1.png);
+	background-size: cover;
+}
+
+.delete {
+	border-radius: 30px;
+	position: static;
+	height: 30px;
+	width: 30px;
+	/* align-items: baseline; */
+	background-image: url(../images/deleteicon1.png);
+	background-size: cover;
+	margin-right: 5px;
+}
+
+.createAll {
+	border-radius: 30px;
+	position: fixed;
+	height: 50px;
+	width: 50px;
+	/* align-items: baseline; */
+	background-image: url(../images/deleteicon1.png);
+	background-size: cover;
+	margin-right: 5px;
+	bottom: 50px;
+	right: 115px;
+	transform: rotate(135deg);
+}
+
+.deleteAll {
+	border-radius: 30px;
+	position: fixed;
+	height: 50px;
+	width: 50px;
+	/* align-items: baseline; */
+	background-image: url(../images/deleteicon1.png);
+	background-size: cover;
+	margin-right: 5px;
+	bottom: 50px;
+	right: 50px;
+}
+
+.edit:focus {
+	outline: none;
+}
+
+.delete:focus {
+	outline: none;
+}
+
+.createAll:focus {
+	outline: none;
+}
+
+.deleteAll:focus {
+	outline: none;
+}
+
+/* width */
+.note::-webkit-scrollbar {
+	width: 2px;
+}
+
+/* Track */
+.note::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+.note::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 8px;
+}
+
+/***************************************************/
+
+/* width */
+.input_note::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+.input_note::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	margin-bottom: 10px;
+}
+
+/* Handle */
+.input_note::-webkit-scrollbar-thumb {
+	background: rgb(189, 188, 188);
+	border-radius: 10px;
+}
+
+/**********************************************************/
+
+/* width */
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}

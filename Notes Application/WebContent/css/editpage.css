@@ -1,0 +1,85 @@
+	@font-face{
+		font-family: "whateverbold";
+		src: url(fonts/whatever\ it\ takes\ bold.ttf);
+	}
+
+	.mainDiv{
+		border: 10px solid #DADCE0;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5%;
+		max-width: fit-content;
+		border-radius: 20px;
+		background-color: rgb(255, 255, 255);
+	}
+
+	hr{
+		border: 4px #DADCE0 solid;
+		border-color: #DADCE0;
+		display: block;
+		background-color: #DADCE0;
+		outline: none ;
+	}
+
+	.input_title{
+		width: 550px;
+		font-size: 1.7rem;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		padding-left: 20px;
+		padding-right: 10px;
+		font-family: 'whateverbold';
+		/*font-weight: bolder;*/
+		color: #686767;
+		border-radius: 20px;
+		border: 0px;
+	}
+	
+	.input_note{
+		width: 552px;
+		height: 200px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 20px;
+		padding-right: 10px;
+		font-family: 'whateverbold';
+		font-size: 1.3rem;
+		border-radius: 20px;
+		border: 0px;
+		color: #757575;
+		resize: none;
+	}
+
+	.input_note:focus{
+		outline: none ;
+	}
+
+	.input_title:focus{
+		outline: none;
+	}
+
+	.submit_button{
+		border-radius: 30px;
+		position: static;
+		height: 50px;
+		width: 50px;
+		/* align-items: baseline; */
+		background-image: url(../images/icon3.jpg);
+		background-size: cover;
+	}
+
+	.submit_button:focus{
+		outline: none;
+	}
+	.mainDiv:hover{
+		box-shadow:0 0 3px #585858;
+	}
+
+p{
+	margin: unset;
+	margin-right: 5px;
+}
+body{
+	/* background-image: url(images/bg4.jpg); */
+	
+}
